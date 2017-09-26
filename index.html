@@ -1,0 +1,137 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <title>高超汇报</title>
+
+    <link href="css/bootstrap.min14ed.css?v=3.3.6" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/reset.css"/>
+    <link rel="stylesheet" type="text/css" href="css/hypersonic.css"/>
+    <!-- <script src="jquery-3.2.1.slim.min.js"></script> -->
+    <script src="jquery-3.2.1.js">
+    </script>
+	
+</head>
+
+<body style="height: 1800px;">
+
+    <div id="topnavbar">
+        <div id="fixedtitle">
+            <div id="servicetitle">高超汇报</div>
+        </div>
+        <div id="fixednavbar">
+             <div id="fixednavtemplate">
+                <a class="fixednavitem {{isactive}}" href="#{{linkid}}">
+                    {{itemcontent}}
+                </a>
+            </div>
+            <div id="slider"></div>
+        </div>
+    </div>
+
+
+
+
+
+    <div id="headerbanner" >
+        <h1 id="title">高超声速飞行器研究进展</h1>
+       <!--  <p id="content">
+           
+        </p> -->
+    </div>
+
+
+
+    <div id="productdetail">
+
+        <div id="navbar">
+            <div id="navtemplate">
+                <a class="navitem {{isactive}}" href="#{{linkid}}">
+                    {{itemcontent}}
+                </a>
+            </div>
+        </div>
+
+        <div id="details">
+
+            <div id="productoverview" class="detailtitle">
+                高超概述
+            </div>
+            <div class="detailcontent">
+                <div class="overview">
+                    <p class="description">
+                        高超声速飞行器是以马赫数5～10的速度在近空间稀薄气体中运行的飞行器，当飞行器加速到超音速路径中几乎所有的空气特性剧烈改变，一些效应的组合整体变得重要，由此衍生出一系列有别于传统飞行器飞行环境的特征。
+                    </p>
+                    <div class="contenticon">
+                        <img src="./image/product-overview.png">
+                    </div>
+                </div>
+            </div>
+
+            <div id="productadvantage" class="detailtitle">
+                国之重器
+            </div>
+            <div id="advantagetemplate" class="detailcontent">
+                <div class="advantageitem {{isactive}}">
+                    <div class="title">
+                        {{itemtitle}}
+                    </div>
+                    <div class="content">
+                        {{itemcontent}}
+                    </div>
+                </div>
+            </div>
+
+            <div id="productfunction" class="detailtitle">
+                研究难点
+            </div>
+            <div id="functiontemplate" class="detailcontent">
+                <div class="functionitem {{isactive}}">
+                    <div class="icon"></div>
+                    <h6 class="title">{{function-title}}</h6>
+                    <p class="content">{{function-content}}</p>
+                </div>
+            </div>
+
+            <div id="applicationscene" class="detailtitle">
+                研究成果
+            </div>
+            <div id="scene" class="detailcontent">
+                <div id="scenetabtemplate" class="scenetab">
+                    <div class="tabitem {{isactive}}">
+                        {{scene-content}}
+                    </div>
+                </div>
+                <div id="scenebodytemplate" class="scenecontent">
+                    <div class="bodyitem {{isactive}}">
+                        <p>{{scene-content}}</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="helpdocument" class="detailtitle">
+                相关链接
+            </div>
+            <div id="helpdoctemplate" class="detailcontent">
+                <div class="helpitem {{isactive}}">
+                    <h6 class="helptitle">{{helptitle}}</h6>
+                    <a class="helplink">{{helplink}}</a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id="footerbanner">
+        <h1 id="title">现在注册，即可体验INDICS平台</h1>
+        <a href="http://www.casicloud.com/"><div id="register">免费注册</div></a>
+    </div>
+
+    
+</body>
+<script type="text/javascript" src="hypersonic.js"></script>

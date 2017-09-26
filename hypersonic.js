@@ -54,7 +54,7 @@ var sceneData = [
     ["active","压缩拐角",],
     ["inactive","壁面粗糙度",],
     ["inactive","热压关联",],
-    ["inactive","网站回源",],
+    ["inactive","DSMC算法",],
 ];
 var navReplaceStr = ["{{isactive}}","{{scene-content}}",];
 renderDom(sceneId, sceneData, navReplaceStr);
@@ -69,7 +69,7 @@ var sceneContentData = [
     ["active","压缩拐角的分离与再附过程中用理论计算相结合的方法预测最大压力值点和最大热流点"],
     ["inactive","分别获得了平板与球头体上粗糙壁面对热流的影响"],
     ["inactive","提出了一个广义物理模型理论，获得了热流与压强在特定情况下的比拟关联式"],
-    ["inactive",""],
+    ["inactive","用DSMC算法，构建程序来模拟高超声速飞行器在稀薄气流中的流动特性"],
 ];
 var navReplaceStr = ["{{isactive}}","{{scene-content}}",];
 renderDom(sceneBody, sceneContentData, navReplaceStr);
